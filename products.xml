@@ -1,0 +1,63 @@
+<category id='14'>
+    <product id='1'>
+        <title>Джинсовая куртка BabyBorn </title>
+        <price>550</price>
+        <image>bb3.jpg</image>
+        <description>Джинсовая куртка , ваш ребенок будет рад.</description>
+    </product>
+     <product id='2'>
+        <title>Курточка BCDkIKCS </title>
+        <price>777</price>
+        <image>bb4.jpg</image>
+        <description>Розовая куртка с ушками.</description>
+    </product>
+     <product id='3'>
+        <title>Курточка зимняя </title>
+        <price>999</price>
+        <image>bb5.jpg</image>
+        <description>Теплая зимняя куртка.</description>
+    </product>
+     <product id='4'>
+        <title>Курточка на малыша "Медвед" </title>
+        <price>1234</price>
+        <image>bb6.jpg</image>
+        <description>Теплая куртка на весну.</description>
+    </product>
+     <product id='5'>
+        <title>Курточка на малыша Bebet</title>
+        <price>765</price>
+        <image>bb8.jpg</image>
+        <description>Теплая  куртка-костюм.</description>
+    </product>
+     <product id='6'>
+        <title>Ветровка с цветами.</title>
+        <price>799</price>
+        <image>bb9.jpg</image>
+        <description>А пахне як.</description>
+    </product>
+    <product id='7'>
+        <title>Димесезонная куртка Abeebee Pink</title>
+        <price>435</price>
+        <image>bb10.jpg</image>
+        <description>Куртка от производителя. Набивка: листья.</description>
+    </product>
+     <product id='8'>
+        <title>Димесезонная куртка </title>
+        <price>745</price>
+        <image>bb11.jpg</image>
+        <description>Цвет просто вау</description>
+    </product>
+     <product id='9'>
+        <title>Теплая розовая куртка </title>
+        <price>634</price>
+        <image>bb12.jpg</image>
+        <description>pink pink pink.</description>
+    </product>
+     <product id='10'>
+        <title>Димесезонная куртка с узором </title>
+        <price>999</price>
+        <image>bb13.jpg</image>
+        <description>Узор непонятній, но оч красивый.</description>
+    </product>
+
+</category>

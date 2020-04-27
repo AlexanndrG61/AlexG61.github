@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta http-equiv="content type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./fonts/font.css" rel="stylesheet">
+    <link href="./css/jquery-ui.css" rel="stylesheet">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/xml2json.js"></script>
+    <script src="./js/jquery.tmpl.min.js"></script>
+    <script src="./js/my.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Два гусі </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm d-none d-sm-none d-md-none d-lg-block">
+                <div class="m-3">
+                    <input type="search" class="src">
+                    <button type="button" class="mybtn">
+                        <img src="../z1/images/abtcomp.gif" class="image"> О компании
+                    </button>
+                    <button type="button" class="mybtn">
+                        <img src="../z1/images/shipping.gif" class="image"> Доставка
+                    </button>
+                    <h5 class="myh1">Товары наши хороши - </h5>
+                    <h6 class="myh2">развивайтесь, малыши!</h6>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="m-3">
+                    <p class="text-center">
+                        <img src="../z1/images/logo.gif" class="image" alt="2 гусі">
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm d-none d-sm-none d-md-none d-lg-block">
+                <div class="m-3">
+                    <img class="image" src="../z1/images/call1.png" style="position:relative; top:-4px;">
+                    <text class="smh1">8 (916) 227 1234</text>
+                    <img class="image2" src="../z1/images/time.png">
+                    <input type="image" class="image2" src="../z1/images/phone.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <a href="../z1/index.html" class="navlnk">Главная >></a>
+                <a href=".." class="navlnk">Одежда и обувь для малышей>></a>
+                <a href=".." class="navlnk">Курточки</a>
+                <text class="smh" style="font-size: 16pt;"><br>Курточки</text>
+                <text style="background-image: url(../z1/images/fld4.png); font-size: 10pt; display:block; background-repeat: no-repeat;
+                background-size: 100%; ">
+                </text>
+
+                <div id="content">
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<script id="prodTmpl" type="text/x-jquery-tmpl">
+{{each product}}
+<a href="site3.html#cat_id=14&id=${id}" class="itemh">${title}</a>
+                <text class="itembg">
+                    <div class="media">
+                        <img src="./img/${image}" type="image" class="itemimg" style="height:260px;width:260px;"> 
+                        <table class="table table-sm" style="background-color: none; font-size: 9pt; "> 
+                            <tbody>
+                                <tr><th scope="row">Тип</th><td>Прогулочная</td></tr>
+                                <tr><th scope="row">Количество блоков</th><td>Один</td></tr>
+                                <tr><th scope="row">Механизм складывания</th><td>Трость</td></tr>
+                                <tr><th scope="row">Количество колес</th><td>8</td></tr>
+                                <tr><th scope="row">Колеса</th><td>Резиновые</td></tr>
+                                <tr><th scope="row">Максимальный возраст</th><td>3 года</td></tr>
+                                <tr><th scope="row">Цвет</th><td>Синий</td></tr>
+                                <tr class="d-inline d-sm-inline d-md-none d-lg-none"><th scope="row">
+                                    <img src="../z1/images/chk.png">
+                                    <text style="color: #aec905; font-size: 10pt; display: inline;">В наличии</text> 
+                                    <text style="text-decoration: line-through;display: inline; margin:15px; font-size: 13pt; ">14555</text> 
+                                    <text class="smh">${price}</text>
+                                </th></tr>
+                                <tr><th scope="row"><a href="#" data-id="${id}" data-name="${title}" data-link="site4.html" class="buy"><input type="image" src="../z1/images/buy.png" style="display: block; float: bottom left; margin-top:10px;"></a></th></tr>
+                                
+                            </tbody>
+                        </table>
+                       
+                        <div class="container d-none d-sm-none d-md-block d-lg-block">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="m-2">
+                                        <img src="../z1/images/chk.png">
+                                        <text style="color: #aec905; font-size: 10pt; display: inline;">В наличии<br></text> 
+                                        <text style="text-decoration: line-through;display: block; margin: 2%; margin-left:0; font-size: 13pt; ">420 p.</text> 
+                                        <text class="smh">   ${price} р.</text>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </text>
+{{/each}}
+</script>
+    
+<script>
+    new MyShop('products.xml','category');
+</script>
+</body>

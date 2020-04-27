@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'RotondaC-B';
+  src: url('../fonts/RotondaC-Bold.eot');
+  src: url('../fonts/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/RotondaC-Bold.svg#RotondaC-Bold') format('svg'),
+       url('../fonts/RotondaC-Bold.ttf') format('truetype'),
+       url('../fonts/RotondaC-Bold.woff') format('woff'),
+       url('../fonts/RotondaC-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
